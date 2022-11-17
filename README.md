@@ -7,14 +7,14 @@
 
 ## *Pseudo Code*
 1. Players choose rock, paper, or scissors
-   1. Represent Choices with a `char`
+   1. Represent Choices with a `String`
       1. R - rock
       2. P - paper
       3. S - Scissors
    2. Store Choices
-      1. Prompt `Scanner` obect `nextChar()`
-      2. `char playerOneChoice`
-      3. `char playerTwoChoice`
+      1. Prompt `Scanner` obect `nextLine()`
+      2. `String playerOneChoice`
+      3. `String playerTwoChoice`
 2. Count down and reveal choices on "shoot"
    1. `Thread.sleep()` to artificially wait
 3. Compare choices of players 
