@@ -81,8 +81,11 @@ public class App {
             else if(playerChoice.equals("paper") && playerTwo() == "paper"){
                 System.out.println(Colors.ANSI_CYAN + "You chose paper..." + Colors.ANSI_PURPLE + " \nPlayer 2 chose paper" + Colors.ANSI_YELLOW + " \nIt's a draw!" + Colors.ANSI_RESET);
             }
-            else{
+            else if(playerChoice.equals("scissors") && playerTwo() == "scissors"){
                 System.out.println(Colors.ANSI_CYAN + "You chose scissors..." + Colors.ANSI_PURPLE + " \nPlayer 2 chose scissors" + Colors.ANSI_YELLOW + " \nIt's a draw!" + Colors.ANSI_RESET);
+            }
+            else{
+                System.out.println(Colors.ANSI_PURPLE + " Secret ending!" + Colors.ANSI_RESET);
             }
         }   
         else{
