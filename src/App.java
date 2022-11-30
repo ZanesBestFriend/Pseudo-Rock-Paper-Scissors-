@@ -33,6 +33,7 @@ public class App {
         
         System.out.println(Colors.ANSI_GREEN + "Choose rock, paper or scissors." + Colors.ANSI_RESET);
         playerChoice = in.nextLine();
+        playerChoice = playerChoice.toLowerCase();
 
         //TODO: Store the choices
 
